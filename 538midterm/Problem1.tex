@@ -25,7 +25,7 @@ However, in packet switching, packets are being forwared to multiple destination
 \subsection{part 2}
 \subsubsection{part a} NCP was not sufficient because it had no end-to-end host error control. To be more clear, NCP was designed only to serve ARPANET -- the only existing network which was so reliable that no error control was neeeded, so NCP had no end-to-end host error control. However, when network enlarged, network reliability became one critical issue which NCP could not resolve. Therefore, NCP was not sufficient anymore.
 
-The missing features of NCP to address the scale of Internet growth
+One missing feature of NCP to address the scale of Internet growth is error detection. When Internet dramatically grows, the reliability of Internet decreases which introduces corrupted packets. NCP does not provide the serivice to identify these corrupted packets. Another missing feature of NCP is congestion control. Since growing number of computers are trying to send data packets to the network, it is easy to forecast that there will be a high potential of traffic congestion. Therefore, having some protocol to restrict the amount of data being sent into the network is critical, which NCP did not have.
 \subsubsection{part b} TCP/IP is a replacement protocol for NCP. The new features are:
 
 \begin{enumerate}
@@ -37,6 +37,11 @@ The missing features of NCP to address the scale of Internet growth
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{part 3}
+
+\begin{enumerate}
+\item Domain Name System (DNS) was introduced to address the naming and addressing issue with the development of scale of Internet. The early stage network has a limited number of hosts and their names and addresses are able to be stored in a single table. However, with the increasing number of hosts in network, the single table is not suitable anymore. Therefore, the hierachical distributed naming system, DNS, was developed to solve this issue by associating various information with domain names assigned to each of entities and it translates easily domain names to the numerical IP addresses to locate computers.
+\item A hierarchical model of routing using an Interior Gateway Protocol (IGP) and an Exterior Gateway Protocol (EGP) was developed to connect the networks and regions together. Each region can run their selected IGP to deliver packets inside their region, while use EGP to route packets among different regions.
+\end{enumerate}
 
 
 
