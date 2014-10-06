@@ -1,0 +1,48 @@
+\section{Problem 1: Data Transmission in Internet}
+
+\subsection{part 1}
+Advantages of Packet Switching v.s. Circuit Switching Transmission are:
+
+\begin{itemize}
+\item Packet switching is able to achive higher utility in terms of bandwidth. The key feature of circuit switching is that it reserves a connection/channel between a pair of hosts for a certain period of time, with and without actual data or messgaes being transmitted. In other words, there are times the connection sends nothing while keeping other hosts connect to each other.
+
+However, packet switching allows packets between various hosts to use the same connection at the same time. It increases the utility by allowing messages sent between various hosts to take advantage of the dull time when the connection is not being used by others.
+
+\item Packet switching is able to resend only damaged or lost packets while circuit switching has to resend the entire message. Packets in packet switching have sequence numbers which help to identify which packet got damaged or lost, so the specific packet could be resent. However, circuit switching does not keep such sequence numbers. So when a piece of message gets lost, the entire data or file needs to be resent.
+\end{itemize}
+
+Disadvantages of packet switching are:
+
+\begin{itemize}
+\item Packet switching cannot guarantee a bandwidth while the circuit switching can. The delivery under packet switching is best-effort delivery.
+
+\item The forwarding in circuit switching would be much simpler compared to packet switching. Because a channel is reserved in circuit switching, routers visited by the transmitted messages are forwarding messages to the same destination. Therefore, as long as a channel is alive, the routers can forward the messages to the same outgoing link.
+
+However, in packet switching, packets are being forwared to multiple destinations which requires the routers to decide which outgoing inks to send these packets. So more effort is cost when forwarding packets in packet switching.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{part 2}
+\subsubsection{part a} NCP was not sufficient because it had no end-to-end host error control. To be more clear, NCP was designed only to serve ARPANET -- the only existing network which was so reliable that no error control was neeeded, so NCP had no end-to-end host error control. However, when network enlarged, network reliability became one critical issue which NCP could not resolve. Therefore, NCP was not sufficient anymore.
+
+The missing features of NCP to address the scale of Internet growth
+\subsubsection{part b} TCP/IP is a replacement protocol for NCP. The new features are:
+
+\begin{enumerate}
+\item TCP/IP provides reliable transmission by including a sequence number in its header. The sequence number is used to identify the order of received data packets and reconstruct the original message/file regardless of any disordering or packet loss.
+\item TCP/IP provides error detection since it has a checksum field in its header. After receiving a data packet, a checksum procedure will be performed by the receiver to ensure the correctness of the received data.
+\item TCP/IP provides sliding window flow control protocol to avoid letting senders sending data to fast that receivers cannot properly receive and process the received packets. The sliding winow flow control protocol restricts the maximum amount of data a sender could send
+\item TCP/IP provides congestion control
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+
+
