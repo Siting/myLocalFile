@@ -31,7 +31,7 @@ The missing features of NCP to address the scale of Internet growth
 \begin{enumerate}
 \item TCP/IP provides reliable transmission by including a sequence number in its header. The sequence number is used to identify the order of received data packets and reconstruct the original message/file regardless of any disordering or packet loss.
 \item TCP/IP provides error detection since it has a checksum field in its header. After receiving a data packet, a checksum procedure will be performed by the receiver to ensure the correctness of the received data.
-\item TCP/IP provides sliding window flow control protocol to avoid letting senders sending data to fast that receivers cannot properly receive and process the received packets. The sliding winow flow control protocol restricts the maximum amount of data a sender could send
+\item TCP/IP provides sliding window flow control protocol to avoid letting senders sending data to fast that receivers cannot properly receive and process the received packets. The flow control protocol lets receivers specify restricts the maximum amount of data a sender could send, and the sender could only move forward to sending more data after it received an acknowledgement from the receiver.
 \item TCP/IP provides congestion control
 \end{enumerate}
 
