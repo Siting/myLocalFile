@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  6 OCT 2014 22:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  7 OCT 2014 10:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -351,25 +351,32 @@ Package pdftex.def Info: labeled.png used on input line 8.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5] [6 <./labeled.png (PNG copy)>]) [7] (./report.aux) ) 
+[5] [6 <./labeled.png (PNG copy)>]) (./Problem5.tex
+<p5.png, id=26, 614.295pt x 794.97pt>
+File: p5.png Graphic file (type png)
+ <use p5.png>
+Package pdftex.def Info: p5.png used on input line 12.
+(pdftex.def)             Requested size: 375.80544pt x 116.21246pt.
+ [7 <./p5.png>]) [8]
+(./report.aux) ) 
 Here is how much of TeX's memory you used:
- 3172 strings out of 493315
- 42784 string characters out of 6137904
- 99223 words of memory out of 5000000
- 6571 multiletter control sequences out of 15000+600000
+ 3181 strings out of 493315
+ 42875 string characters out of 6137904
+ 99233 words of memory out of 5000000
+ 6576 multiletter control sequences out of 15000+600000
  6092 words of font info for 22 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,6n,26p,871b,237s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/201
-3/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2013
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2013/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2013/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2013/texm
-f-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on report.pdf (7 pages, 224887 bytes).
+ 38i,7n,26p,871b,255s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/cm-super/cm
+-super-ts1.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr17.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1
+200.pfb>
+Output written on report.pdf (8 pages, 235966 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+ 52 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 17 words of extra memory for PDF output out of 10000 (max. 10000000)
 
