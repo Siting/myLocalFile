@@ -6,15 +6,35 @@
 \item Each forwarding engine has a complete set of the routing tables. Traditionally, routers kept a central master routing table and the satellite processors each keep only several latest used routes. This leads to the problem that if a route information is not available in the satellite processors, then requests need to be made to obtain the information from the central master routing table. Therefore, at high speeds, the cost of requesting routing table multiple times is much higher than processing the packet header.
 
 By letting each forwarding engine has a complete set of routing tables would overcome the bottelneck issue.
-\item
-\item
+\item The MGR uses a switched backplane. Switched backplane allows parallelism of a switch compared to the traditionally applied shared bus mechanism.
+\item The MGR includes quality of service (QoS) processing in the router by spiltting the QoS function. The forwarding engine classifies packets and a specialized processor called QoS processor takes charge of the scheduling of the backets. This design proves the possibility of building a router that includes line-speed QoS.
 \end{enumerate}
 
-
-
-
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{part 2}
+
+\subsubsection{part a}
+The Ethernet-used ARP does not work for the MGR architecture is because the pipelined MGR does not have a convenient place in the forwardingn engine to store datagrms awaiting an ARP reply.
+
+\subsubsection{part b}
+The ARP is implemented following a two-part strategy. The first part is the router ARP's for all apossible addresses on each interface to collect link-layer addresses for the forwarding tables at a low frequency. And the second part is datagrams for which the destination link-layer address is unknown are passed to the network processor, which does the ARP and, once it gets the ARP reply, forwards the datagram and incorporates the link-layer address into future forwarding tables.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{part 3}
+\subsubsection{part a}
+The reason IP header checksum is not checked is due to its high cost. In the best situation, it would require 17 instructions to be spread over a minimum of 14 cycles which increase the time to perform the forwarding code about 21\%. It is considered as high cost to check for a rare error that can be caught end-to-end.
+
+\subsubsection{part b}
+\begin{enumerate}
+\item If the destination in a header of a data packet is missed in the route cache,
+\item Since the forwarding engine is designed to instruct the inbound line card to discard the errored packets, therefore packets whose headers have errors will be dicarded and appear as lost.
+\item The forwarding engine does not handle packets whose headers have IP options.
+\
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{part 4}
+The advantage of switched architecture is it does not have the problem of head-of-line blocking since each input keeps its own FIFO and bids separately for each output. And it was shown that such a switch can achieve 100\% throughput.
+
+The disadvantage of switched architecture is that it is a point-to-point switch without the function of one-to-many, so it does not support multicasting.
 \subsection{part 5}
