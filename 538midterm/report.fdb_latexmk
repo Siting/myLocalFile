@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1412696680 "report.tex" "report.pdf" "report" 1412726173
+["pdflatex"] 1412731333 "report.tex" "report.pdf" "report" 1412731334
   "/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty" 1335995445 7612 c47308d923ec19888707b0f1792b326a ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty" 1303254447 7324 11d14f318d865f420e692d4e6c9c18c3 ""
@@ -12,6 +12,8 @@
   "/usr/local/texlive/2013/texmf-dist/tex/latex/amscls/amsthm.sty" 1361575838 13294 f63af559496acbb4ffecc2de353745eb ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amsfonts.sty" 1359763108 5949 3f3fd50a8cc94c3d4cbf4fc66cd3df1c ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amssymb.sty" 1359763108 13829 94730e64147574077f8ecfea9bb69af4 ""
+  "/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd" 1359763108 961 6518c6525a34feb5e8250ffa91731cff ""
+  "/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd" 1359763108 961 d02606146ba5601b5645f987c92e6193 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsbsy.sty" 1362954379 2412 2d98314dc5be38f455f8890deeb2d091 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty" 1362954379 4357 ad30ad08920902fc9b38caf35a3b0496 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty" 1362954379 79178 b2e326c351e876df0e5e23df2e02441b ""
@@ -39,16 +41,15 @@
   "/usr/local/texlive/2013/texmf-dist/tex/latex/preprint/authblk.sty" 1368488610 7016 985a983ce041cc8959cd31133cba0244 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/preprint/fullpage.sty" 1137110595 2789 05b418f78b224ec872f5b11081138605 ""
   "Problem1.tex" 1412625067 5582 d9aa169c352a279ae0bfe0c24af93609 ""
-  "Problem2" 1412627080 117 21b0981f56e327e2427aac93a7f814e5 ""
+  "Problem2.tex" 1412731278 2917 d9b35aff8cd2a2ebbe5d9d8ff8b2cb41 ""
   "Problem3.tex" 1412650277 4892 58132a6ef87cfd319f4fd35849e27808 ""
-  "Problem4.tex" 1412653662 2363 6db10e94a0a96091e1417ec714e888f9 ""
+  "Problem4.tex" 1412731331 2323 f1b47d0963ed49e47b779c8a219356c9 ""
   "Problem5.tex" 1412696671 2625 d51e5d532e569a6483d1642e01a771a9 ""
   "labeled.png" 1412647197 160668 586910b99230bfc71d45f592c8952cb4 ""
   "p5.png" 1412693720 14905 1f799455b0c5630cf5e4904fd027b0fc ""
-  "report.aux" 1412696681 2249 12e196df85efe6f8c38abc3f79b3f2bf ""
+  "report.aux" 1412731334 2171 103b89f4087437575498292d0460bcbb ""
   "report.tex" 1412696521 572 5c09284ac6850397f845a210f407f04a ""
   (generated)
-  "report.toc"
   "report.aux"
   "report.pdf"
   "report.log"

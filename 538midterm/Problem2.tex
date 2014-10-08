@@ -7,7 +7,21 @@ reliability and security.
 
 \item One possible fault is data packets got lost or delayed during transmission. Reasons could be bad or broke connections, and traffic congestion inside network.Another possibility is that data packets got damaged or corrupted.
 
-In terms of attacks, data packets could be intercepted by
+In terms of attacking, the confidential file could be tampered by intruders. Also, intruders could send the confidential file to clients claiming they are the storage server. When the confidential file is received by the client, it is possible that virus on the clients computer modifies the file.
+
+\item To ensure reliable data transfer, we would like to build several disjoint UDP connections between the server and the client and letting client acknowledges the data receiving by sending ACKs back to the server to avoid server resending the file. This service involves both application-level and network-level reliability.
+
+Since the confidential file is a short file, which implies that making and sending a certain number of copies of the confidential file won't overload the network as it will do with a huge file. We choose to build UDP intead of TCP connetions is because the cost of building TCP connections is high. Furthermore, since we are letting server sending multiple copies of the confidential file it increases its chance of successfully tranferring the file. Also, by letting client acknowledges the file receiving status we could make sure that server knows when to resend to file when it is neccessary.
+
+To secure the data transfer, we would like to perform digital signature authentication, public key encryption as well as an application to protect the file from being damaged on client's computer. By performing this algorithm: 1) we would be able to authetic the sender of the file is the expected server, 2) we could make sure the file was not modified, 3) intruders do not have access to the confidential file, 4) file is safe from being damaged after receiving by the client. This service involves both application-level and network-level reliability.
+
+Denote the confidential file as m, and the server and the client both have their public and secret key. Upon sending m, the server signs the file with its secret key, $s_s$, and use the public key of the client, $p_c$, to encrypt both m and the signed file $\{m\}_{s_s}$ to get $\{m, \{m\}_{s_s}\}_{p_c}$. After receiving the entrypted data, the client use its secret key, $s_c$, to decrypt it. Since intruders don't have the client's secret key, they are not able to read the content of the confidential file. Next, we use the server's  public key to verify signature to check authentication and integrity.
+
+
+\item The advantages of my approach are:
+\begin{itemize}
+\item
+\end{itemize}
 
 
 
@@ -15,4 +29,3 @@ In terms of attacks, data packets could be intercepted by
 \end{itemize}
 
 
-In terms of reliability, we would like to make sure the confidential file being successfully delivered from the server to the client. In order to achieve this goal, we would

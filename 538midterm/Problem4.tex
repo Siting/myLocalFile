@@ -6,7 +6,7 @@ To simplify the notations when describing paths, labels are assigned to paths as
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{labeled.png}
-    \caption{Graph}
+    \caption{Graph $G$ with links labeled.}
     \label{fig:graph}
 \end{figure}
 
@@ -38,11 +38,10 @@ The remained paths are:
 \item s-2-6-d
 \end{enumerate}
 
-In conclusion, the best paths that satisfy both requirements are:
+Comparing the delay of these two paths, we see the first path has delay of 80ms and the second one has 85 ms of delay. In conclusion, the best paths that satisfy both requirements are:
 
 \begin{enumerate}
 \item s-(s,i)-(i,j)-(j,d)-d
-\item s-(s,k)-(k,d)-d
 \end{enumerate}
 
 
@@ -63,7 +62,7 @@ The link preference is to choose link with the highest bandwidth. The steps are 
 
 However, the total latency of the above path 145ms which is greater than the restriction. This means that following this preference, the best path with all parameters at their optimal values does not exist.
 
-Changing the link preference to choosing link with the lowest latency, this gives the same path as described above. And again, we reach the conclusion that the best path with all parameters at their optimal values does not exist.
+The best path using the hop-by-hop routing algorithm is s-i-j-k-l-d.
 
 
 
