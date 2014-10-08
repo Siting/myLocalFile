@@ -12,7 +12,7 @@ To simplify the notations when describing paths, labels are assigned to paths as
 
 \textbf{Step 1: generate all paths from s to d that satisfy the bandwidth requirement.}
 
-Noticed that there is only one link, Link 8, in the graph that has a bandwidth under 100 Mbs. Therefore, any paths including Link 8 will not satisfy the bandwidth requirement. When generating candidate paths, we exclude those paths which include Link 8. And all other generated paths satisfy the bandwidth requirement.
+Noticed that there is only one link, Link 8, in the graph that has a bandwidth under 100Mbs. Therefore, any paths including Link 8 will not satisfy the bandwidth requirement. When generating candidate paths, we exclude those paths which include Link 8. And all other generated paths satisfy the bandwidth requirement.
 
 The paths generated are:
 \begin{enumerate}
@@ -30,7 +30,7 @@ The paths generated are:
 
 \textbf{Step 2: keep paths that satisfy the latency requirement.}
 
-What we do is, for each path listed above, sum up the total latency and exclude those with a total latency higher than 100 ms.
+What we do is, for each path listed above, sum up the total latency and exclude those with a total latency higher than 100ms.
 
 The remained paths are:
 \begin{enumerate}
@@ -38,11 +38,7 @@ The remained paths are:
 \item s-2-6-d
 \end{enumerate}
 
-Comparing the delay of these two paths, we see the first path has delay of 80ms and the second one has 85 ms of delay. In conclusion, the best paths that satisfy both requirements are:
-
-\begin{enumerate}
-\item s-(s,i)-(i,j)-(j,d)-d
-\end{enumerate}
+Comparing the delay of these two paths, we see the first path has delay of 80ms and the second one has 85ms. In conclusion, the best path that satisfy both requirements s-i-j-d.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -53,16 +49,13 @@ The link preference is to choose link with the highest bandwidth. The steps are 
 \begin{enumerate}
 \item Start from origin s.
 \item Choose Link 1 over Link 2.
-\item Now we reaches node i. Choose Link 4 over Link 3.
-\item Reaches node j. Choose Link 5 over Link 8 and Link 10.
-\item Reaches node k. Choose Link 7 over Link 6.
-\item Reaches node l. Choose Link 9 over Link 8.
-\item Reaches destination d.
+\item Now we reach node i. Choose Link 4 over Link 3.
+\item Reach node j.  Link 5 and Link 10 are both valid for the next step.
+\item If choose Link 5. Reach node k. Choose Link 7 over Link 6. Reach node l. Choose Link 9 over Link 8. Reach destination d.
+\item If choose Link 10. Reach node d.
 \end{enumerate}
 
-However, the total latency of the above path 145ms which is greater than the restriction. This means that following this preference, the best path with all parameters at their optimal values does not exist.
-
-The best path using the hop-by-hop routing algorithm is s-i-j-k-l-d.
+ Both of these links has the highest bandwidth of 140Mbs. However, the total latency of the first path is 145ms which is greater than second path of 80ms. Therefore, the best path is s-i-j-d.
 
 
 
