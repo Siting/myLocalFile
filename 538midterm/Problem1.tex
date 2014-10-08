@@ -8,7 +8,9 @@ Advantages of Packet Switching v.s. Circuit Switching Transmission are:
 
 However, packet switching allows packets between various hosts to use the same link during the same session. It increases the utility by allowing messages sent between one pair of hosts to take advantage of the dull time when the other pairs are not transmitting any messages.
 
-\item Packet switching is able to resend only damaged or lost packets while circuit switching has to resend the entire message. Packets in packet switching have sequence numbers which help to identify which packet got damaged or lost, so the specific packet could be resent. However, circuit switching does not keep such sequence numbers. Therefore, if a piece of packet gets lost, the entire message or file needs to be resent.
+\item Packet switching is more flexible when handling link failure situations compared to circuit switching. Packet switching is able to direct packets to other links when a link broke down.
+
+\item Packet switching keeps sequence numbers for the transmitted packets which allows resending of specific packets if they are lost. However, circuit switching does not keep such sequence numbers and if a piece of message is lost, the entire file needs to be resend.
 \end{itemize}
 
 Disadvantages of packet switching are:
@@ -18,7 +20,7 @@ Disadvantages of packet switching are:
 
 \item The forwarding in circuit switching would be much simpler compared to packet switching. Because a channel is reserved in circuit switching, routers visited by the transmitted messages forward messages to the same destination. Therefore, as long as a channel is alive, the routers can forward the messages to the same outgoing link without checking routing table.
 
-However, in packet switching, packets are being forwarded to multiple destinations which requires the routers to identify which outgoing inks to send these packets. So more effort is made when forwarding packets in packet switching.
+However, in packet switching, when routers receive packets being assigned to different destinations, it requires the routers to identify which outgoing inks to send these packets. So more effort is made when forwarding packets in packet switching.
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
