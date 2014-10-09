@@ -1,0 +1,84 @@
+\begin{thebibliography}{10}
+
+\bibitem{Buxton2003125}
+Hilary Buxton.
+\newblock Learning and understanding dynamic scene activity: a review.
+\newblock {\em Image and Vision Computing}, 21(1):125 -- 136, 2003.
+
+\bibitem{1717363}
+Shinko~Yuanhsien Cheng and M.M. Trivedi.
+\newblock Turn-intent analysis using body pose for intelligent driver
+  assistance.
+\newblock {\em Pervasive Computing, IEEE}, 5(4):28--37, Oct 2006.
+
+\bibitem{5}
+HannahM. Dee and SergioA. Velastin.
+\newblock How close are we to solving the problem of automated visual
+  surveillance?
+\newblock {\em Machine Vision and Applications}, 19(5-6):329--343, 2008.
+
+\bibitem{Kuge2000}
+N.~Kuge, T.~Yamamura, O.~Shimoyama, and A.~Liu.
+\newblock A driver behavior recognition method based on a driver model
+  framework.
+\newblock {\em SAE Technical Papers}, 2000.
+\newblock cited By (since 1996)2.
+
+\bibitem{4142930}
+J.C. McCall and M.M. Trivedi.
+\newblock Driver behavior and situation aware brake assistance for intelligent
+  vehicles.
+\newblock {\em Proceedings of the IEEE}, 95(2):374--387, Feb 2007.
+
+\bibitem{4298904}
+J.C. McCall, D.P. Wipf, M.M. Trivedi, and B.D. Rao.
+\newblock Lane change intent analysis using robust operators and sparse
+  bayesian learning.
+\newblock {\em Intelligent Transportation Systems, IEEE Transactions on},
+  8(3):431--440, Sept 2007.
+
+\bibitem{4141877}
+Xiaoning Meng, Ka~Keung Lee, and Yangsheng Xu.
+\newblock Human driving behavior recognition based on hidden markov models.
+\newblock In {\em Robotics and Biomimetics, 2006. ROBIO '06. IEEE International
+  Conference on}, pages 274--279, Dec 2006.
+
+\bibitem{Moeslund200690}
+Thomas~B. Moeslund, Adrian Hilton, and Volker Krüger.
+\newblock A survey of advances in vision-based human motion capture and
+  analysis.
+\newblock {\em Computer Vision and Image Understanding}, 104(2–3):90 -- 126,
+  2006.
+\newblock Special Issue on Modeling People: Vision-based understanding of a
+  person’s shape, appearance, movement and behaviour.
+
+\bibitem{898310}
+N.~Oliver and A.P. Pentland.
+\newblock Graphical models for driver behavior recognition in a smartcar.
+\newblock In {\em Intelligent Vehicles Symposium, 2000. IV 2000. Proceedings of
+  the IEEE}, pages 7--12, 2000.
+
+\bibitem{6}
+Maja Pantic, Alex Pentland, Anton Nijholt, and ThomasS. Huang.
+\newblock Human computing and machine understanding of human behavior: A
+  survey.
+\newblock In ThomasS. Huang, Anton Nijholt, Maja Pantic, and Alex Pentland,
+  editors, {\em Artifical Intelligence for Human Computing}, volume 4451 of
+  {\em Lecture Notes in Computer Science}, pages 47--71. Springer Berlin
+  Heidelberg, 2007.
+
+\bibitem{4633642}
+C.~Piciarelli, C.~Micheloni, and G.L. Foresti.
+\newblock Trajectory-based anomalous event detection.
+\newblock {\em Circuits and Systems for Video Technology, IEEE Transactions
+  on}, 18(11):1544--1554, Nov 2008.
+
+\bibitem{7}
+Esra Vural, Mujdat Cetin, Aytul Ercil, Gwen Littlewort, Marian Bartlett, and
+  Javier Movellan.
+\newblock Drowsy driver detection through facial movement analysis.
+\newblock In Michael Lew, Nicu Sebe, ThomasS. Huang, and ErwinM. Bakker,
+  editors, {\em Human–Computer Interaction}, volume 4796 of {\em Lecture
+  Notes in Computer Science}, pages 6--18. Springer Berlin Heidelberg, 2007.
+
+\end{thebibliography}

@@ -1,5 +1,13 @@
 # Fdb version 3
-["pdflatex"] 1412712458 "report.tex" "report.pdf" "report" 1412712459
+["bibtex report"] 1412823421 "report.aux" "report.bbl" "report" 1412856346
+  "/usr/local/texlive/2013/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
+  "report.aux" 1412856346 653 104db4743188b1fa296966d66afe9203 ""
+  "report.bcf" 0 -1 0 ""
+  "thesis.bib" 1412822958 9602 23eee3e43e783b6c19fe30e9de0140b4 ""
+  (generated)
+  "report.bbl"
+  "report.blg"
+["pdflatex"] 1412856345 "report.tex" "report.pdf" "report" 1412856346
   "/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty" 1335995445 7612 c47308d923ec19888707b0f1792b326a ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty" 1303254447 7324 11d14f318d865f420e692d4e6c9c18c3 ""
@@ -12,13 +20,13 @@
   "/usr/local/texlive/2013/texmf-dist/tex/latex/amscls/amsthm.sty" 1361575838 13294 f63af559496acbb4ffecc2de353745eb ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amsfonts.sty" 1359763108 5949 3f3fd50a8cc94c3d4cbf4fc66cd3df1c ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amssymb.sty" 1359763108 13829 94730e64147574077f8ecfea9bb69af4 ""
+  "/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd" 1359763108 961 6518c6525a34feb5e8250ffa91731cff ""
+  "/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd" 1359763108 961 d02606146ba5601b5645f987c92e6193 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsbsy.sty" 1362954379 2412 2d98314dc5be38f455f8890deeb2d091 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty" 1362954379 4357 ad30ad08920902fc9b38caf35a3b0496 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty" 1362954379 79178 b2e326c351e876df0e5e23df2e02441b ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty" 1362954379 4082 502152465aedb8f6a3c4b0b7c0fa8ae5 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amstext.sty" 1362954379 2637 846ebe982d3549c7ede7ce135456f54a ""
-  "/usr/local/texlive/2013/texmf-dist/tex/latex/base/article.cls" 1254151887 20571 b8bd218bf2e18b4f5817ee643cd9c515 ""
-  "/usr/local/texlive/2013/texmf-dist/tex/latex/base/size12.clo" 1254151887 9053 a28d9b3c915d12545f3d5e7c4986be20 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/base/textcomp.sty" 1312312491 15509 394096bec6a284398e0b3ead6d33977e ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1cmr.fd" 1254151887 2070 a9b43c0e3cee84bb3927d80d70ee10ce ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1enc.def" 1254151887 7630 8f51e48866ebfd08b8299888bbe81549 ""
@@ -38,10 +46,12 @@
   "/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def" 1306616590 55368 3c8a0d99822330f2dfabc0dfb09ce897 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/preprint/authblk.sty" 1368488610 7016 985a983ce041cc8959cd31133cba0244 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/preprint/fullpage.sty" 1137110595 2789 05b418f78b224ec872f5b11081138605 ""
-  "main.tex" 1412712305 94 ddf82e955e5ff1c85a337e6e99e9a040 ""
-  "referenceList.tex" 1412712335 25 abbe470e2caf8a7d46f900a648c54dba ""
-  "report.aux" 1412712459 165 44bf63f026b215aae832b31e335da1ca ""
-  "report.tex" 1412712313 517 dd576a7b6cdacc4d9af6263367b65fe7 ""
+  "/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ptm.fd" 1137110629 961 15056f4a61917ceed3a44e4ac11fcc52 ""
+  "IEEEtran.cls" 1400388544 215484 3585e63204c3b8111bb2bf0eda265d43 ""
+  "main.tex" 1412856337 2470 b170d459135aa0e22f2bf07c0ce16a20 ""
+  "report.aux" 1412856346 653 104db4743188b1fa296966d66afe9203 ""
+  "report.bbl" 1412823421 3272 f0c14e989852650462df05c8323f7e9c "bibtex report"
+  "report.tex" 1412824857 551 2f054751b7580ecc17bb09dfe37e88c1 ""
   (generated)
   "report.aux"
   "report.pdf"
